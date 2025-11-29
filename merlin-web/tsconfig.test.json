@@ -4,6 +4,7 @@
     "types": ["vitest/globals"]
   },
   "include": [
-    "__tests__"
+    "__tests__/**/*.test.ts",
+    "__tests__/**/*.test.tsx",
   ]
 }
