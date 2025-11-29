@@ -8,4 +8,7 @@ import GameController from '../../../../src/features/game/controllers/game_contr
 test('it displays a text input', () => {
     const controller = new GameController();
     render(<GameView controller={controller}/>);
+    expect(screen.getByRole('form')).toHaveFormValues({
+        talk: '',
+    });
 });

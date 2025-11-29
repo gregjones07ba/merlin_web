@@ -1,8 +1,10 @@
 const GameView = ({controller}) => {
     return (
-        <div>
-            This is game
-        </div>
+        <main>
+            <form name='act'>
+                <input type='text' name='talk'></input>
+            </form>
+        </main>
     );
 }
 
